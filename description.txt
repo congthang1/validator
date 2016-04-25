@@ -1,0 +1,32 @@
+[3/16/16, 9:39:55 AM] D: we will have 2 modes
+[3/16/16, 9:40:01 AM] D: check link
+[3/16/16, 9:40:06 AM] D: and give click
+[3/16/16, 9:40:56 AM] D: give click lets us give clicks to offers from specific device and country
+[3/16/16, 9:41:16 AM] D: no conversion as we wont install just clicks
+[3/16/16, 9:41:37 AM] D: and will utilize as many new IP
+[3/16/16, 9:41:57 AM] D: check link he will just check that we go to the right offer
+[3/16/16, 9:42:03 AM] D: we can look for package ID
+[3/16/16, 9:42:10 AM] D: in itunes or android store
+[3/16/16, 9:42:17 AM] D: and make sure it match what we have
+[3/16/16, 9:42:24 AM] Cong Thang: Ok
+[3/16/16, 9:43:15 AM] D: then i guess it gonna send signal to our system
+[3/16/16, 9:43:28 AM] D: so we might as well create those fields
+[3/16/16, 9:43:50 AM] D: it will be like validated yes or no
+[3/16/16, 9:44:00 AM] D: and maybe time it was last validated
+[3/16/16, 9:44:46 AM] Cong Thang: Ok, we can integrate these modules on main
+[3/16/16, 9:44:59 AM] D: ok
+[3/16/16, 9:45:49 AM] D: we will only validate active offers
+[3/16/16, 9:46:16 AM] D: phantom can run from node?
+[3/16/16, 9:46:31 AM] Cong Thang: Ya
+[3/16/16, 9:46:36 AM] D: nice
+[3/16/16, 9:46:38 AM] Cong Thang: Child process
+[3/16/16, 9:46:56 AM] D: so maybe we make this as seperate instance
+[3/16/16, 9:47:16 AM] Cong Thang: Ok
+[3/16/16, 9:47:21 AM] D: because if we using alot of clicks and validation it might need to scale
+[3/16/16, 9:47:28 AM] D: so we should build it like clicks
+[3/16/16, 9:47:40 AM] Cong Thang: Ya
+[3/16/16, 9:48:07 AM] Cong Thang: It will also request a lot
+[3/16/16, 9:48:12 AM] D: ya
+[3/16/16, 9:48:29 AM] D: and it can have problems if proxy crash etc
+[3/16/16, 9:48:39 AM] Cong Thang: Ya
+[3/16/16, 9:48:48 AM] D: so better for it to restart seperate
