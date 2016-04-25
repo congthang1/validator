@@ -21,4 +21,4 @@ casper.start().each(links, function(self, link) {
  
 
  
-casper.run();
+casper.run()
